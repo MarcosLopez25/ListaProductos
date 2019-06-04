@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorAppbar">#18FFFF</color>
+    <color name="colorNavbar">#76ffff</color>
+    <color name="colorNotifi">#00cbcc</color>
+    <color name="colorButton">#ffab91</color>
+    <color name="colorBorrar">#d50000</color>
+    <color name="colorEditar">#304ffe</color>
+    <color name="colorAgregar">#00c853</color>
+    <color name="colorButtonpush">#c97b63</color>
+    <color name="white">#ffff</color>
+    <color name="colorFloating">#ffff00</color>
+    <color name="colorAssent">#ffff5a</color>
+</resources>

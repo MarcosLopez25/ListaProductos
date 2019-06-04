@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="0dp"
+        android:elevation="6dp"
+        app:fab_addButtonColorNormal="@color/colorFloating"
+        app:fab_addButtonColorPressed="@color/colorAssent"
+        app:fab_addButtonPlusIconColor="@color/white"
+        app:fab_labelStyle="@style/fabCustom">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fbPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/colorAgregar"
+            app:fab_colorPressed="#e0e0e0"
+            app:fab_size="mini"
+            android:src="@drawable/ic_payment_black_24dp"
+            app:fab_title="Total a pagar" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fbAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/colorEditar"
+            app:fab_colorPressed="#e0e0e0"
+            app:fab_size="mini"
+            android:src="@drawable/ic_add_shopping_cart_black_24dp"
+            app:fab_title="Agregar producto" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:logo="@drawable/logo"
+        app:title="  RapidBuy" />
+</RelativeLayout>

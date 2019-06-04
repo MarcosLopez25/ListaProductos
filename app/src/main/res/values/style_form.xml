@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppThemeCian" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorAppbar</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorPrimaryDark">@color/colorNotifi</item>
+        <item name="android:navigationBarColor">@color/colorNavbar</item>
+        <item name="colorAccent">@color/colorButton</item>
+    </style>
+
+    <style name="fabCustom">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">@android:color/holo_orange_dark</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+    </style>
+</resources>
